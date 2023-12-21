@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <button class="w drum"; onclick= "playcrush()"; type="button"><audio id="crush"><source src="./sounds/crash.mp3" type="audio/mp3"></audio>w</button>
+    <button class="a drum"; onclick="playkick_bass()"; type="button"><audio src="./sounds/kick-bass.mp3" id="kick-bass"></audio>a</button>
+    <button class="s drum"; onclick="playsnare()"; type="button"><audio src="./sounds/snare.mp3" id="snare"></audio>s</button>
+    <button class="d drum"; onclick="playtom_1()"; type="button"><audio src="./sounds/tom-1.mp3" id="tom-1"></audio>d</button>
+    <button class="j drum"; onclick="playtom_2()"; type="button"><audio src="./sounds/tom-2.mp3" id="tom-2"></audio>j</button>
+    <button class="k drum"; onclick="playtom_3()"; type="button"><audio src="./sounds/tom-3.mp3" id="tom-3"></audio>k</button>
+    <button class="l drum"; onclick="playtom_4()"; type="button"><audio src="./sounds/tom-4.mp3" id="tom-4"></audio>l</button>
+  </div>
+  <script src="./index.js"></script>
+
+  <footer>
+    Made with ❤️ in London.
+  </footer>
+</body>
+
+</html>
